@@ -16,3 +16,7 @@
 </div>
 
 <%= render 'comments/form' %>
+
+<h3>Comentarios: </h3>
+<hr>
+<%= render partial: "comments/comment", collection: @last_comments %>
